@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 90vw;
+    height: 90vh;
+    font-family: sans-serif;
+
+}
+
+/* @media (max-width: 990px)
+body{font-size: 10px;
+width:100%;
+} */
+
+.my-huntr {
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    color:palevioletred
+    /* margin: 2em; */
+
+}
+
+.nav-link {
+    /* display: ; */
+    margin-left: 10em;
+    text-align: center;
+    padding-top: -50px;
+}
+
+a {
+    padding: 10px;
+    color: black;
+
+
+}
+
+.my-info {
+    margin-left: 56%;
+    text-align: right;
+
+
+}
+
+.ladys-phone {
+    width: 50vw;
+    margin-top: -42px;
+
+}
+
+.my-logo {
+    margin-top: -33%;
+}
+
+.my-div {
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    text-transform: capitalize;
+    margin-left: 65px;
+    font-size: 25px;
+}
+.my-starter{
+    color: palevioletred;
+
+}
+.my-dream{
+font-size: 30px;
+}
+.header-content{
+font-size: 12px;
+padding: 2px ;
+
+
+}
+
+
+
+@media screen and (max-width:390px){
+.my-div{
+text-align: center;
+
+}
+    
+
+
+}
