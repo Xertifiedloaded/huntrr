@@ -107,11 +107,13 @@ a {
     .my-dream{
 font-size: 25px;
 padding-left: 2px;
+text-align: center;
 
     }
     p{
         font-size: 10px;
         padding: 3px;
+        text-align: center;
         
     }
     .ladys-phone{
