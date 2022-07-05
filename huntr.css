@@ -96,7 +96,7 @@ a {
 }
 
     .my-div {
-        /* text-align: center; */
+        
         font-size: small;
     }
     .my-starter{
@@ -121,10 +121,12 @@ padding-right: -50px;
     }
     .log{
 width: 20vw;
+margin-top: 5em;
 
     }
-    .my-info{
-margin-left: 50px;
+     .my-logo{
+        margin-top: 1.3%;
+
 
     }
 
