@@ -136,11 +136,35 @@ a {
 
     .my-logo {
         margin-top: 5%;
-/* position: relative;
-top: 25%; */
-
     }
+.my-job{
+text-align: center;
+margin-left: 50px;
+margin-top: 30px;
 }
+.my-keyword{
+/* border-top: none;
+border-left: none;
+border */
+border: none;
+font-size: 15px;
+
+}
+button{
+background-color: rgb(199, 16, 199);
+color: white;
+font-size: 25px;}
+
+.search-btn{
+font-size: 25px;
+font-weight: lighter;
+
+}
+
+}
+
+
+
 
 /* for laptop only */
 @media only screen and (min-device-width:1080px) and (max-device-width:1920px) {
@@ -208,5 +232,27 @@ top: 25%; */
 
     }
 
-    img {}
+    .my-job{
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 30px;
+        }
+        .my-keyword{
+        /* border-top: none;
+        border-left: none;
+        border */
+        border: none;
+        font-size: 15px;
+        
+        }
+        button{
+        background-color: rgb(199, 16, 199);
+        color: white;
+        font-size: 25px;}
+        
+        .search-btn{
+        font-size: 25px;
+        font-weight: lighter;
+        
+        }
 }
