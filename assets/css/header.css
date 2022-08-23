@@ -1,0 +1,370 @@
+:root {
+    --color-pink: #f261b4;
+    --color-red: red;
+    --color-blue: blue;
+    --color-black: black;
+    --color-yellow: yellow;
+    --color-white: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+    position: relative;
+}
+
+.my-header {
+    display: flex;
+    width: 100%;
+
+}
+
+.my-header>.header-content {
+    width: 30%;
+    margin: 40px 30px;
+    color: var(--color-pink);
+    text-transform: capitalize;
+
+}
+
+.nav-bar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    opacity: 1;
+    z-index: 1;
+    margin-top: 5px;
+
+
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 10px;
+    /* background-color: blueviolet; */
+    width: 80%;
+    height: 40px;
+    color: var(--color-black);
+
+}
+
+.nav-item{
+    padding-left: 30px;
+    color: var(--color-black);
+    text-transform: capitalize;
+}
+
+.btn {
+    /* background-color: black; */
+    width: 80%;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.image-section {
+    display: flex;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+
+.mask-2 {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.nav-bar::after {
+    content: "";
+    width: 50%;
+    background-color: yellow;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.log-in {
+    width: 80px;
+    padding: 10px 0;
+}
+
+.sign-up {
+    width: 80px;
+    padding: 10px 0;
+    background-color: var(--color-pink);
+}
+
+button {
+    border: none;
+
+}
+
+.row-2 {
+    width: 55%;
+    /* background-color: yellow; */
+}
+
+.content-header {
+    margin: 5px 60px;
+    width: 100%;
+}
+
+.row-2 .content-header>.get {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.row-2 .content-header>.find {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.row-2 .content-header>.paragraph {
+    /* background-color: yellow; */
+    width: 400px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.input-text {
+    display: flex;
+    width: 60%;
+    margin: 100px 40px;
+
+}
+
+.keyword {
+    border: none;
+    padding: 5px 20px;
+}
+
+.sub {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--color-pink);
+    color: var(--color-white);
+}
+
+.card-section {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+ 
+
+}
+
+.card {
+   
+    margin-left: 10px;
+    width: 30%;
+    height: 250px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 106px -59px #adabad;
+  
+}
+
+
+
+.cards>.card h1 {
+    width: 100%;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.cards>.card p {
+    width: 200px;
+    font-size: 15px;
+   
+}
+
+
+
+.poly{
+    position: absolute;
+   
+    width: 20px;
+    top: 15px;
+    left: 10px;
+    
+
+}
+.div{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.div p{
+    padding-top: 40px;
+    font-size: 10px;
+}
+small{
+    color: #f261b4;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+    
+}
+.img-container1{
+    width: 40%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+   
+}
+.broke{
+    width: 100%;
+  
+}
+.cont-container{
+    width: 40%;
+    margin-left: 60px;
+    margin-bottom: 70px;
+    
+
+}
+/* .height{
+    margin: 0 50px;
+} */
+.cont-container> h1{
+
+font-size: 2.5em;
+font-weight: 500;
+}
+.cont-container> p{
+margin-top: 70px;
+line-height: 1.6em;
+
+}
+.card1{
+
+width: 30%;
+height: 200px;
+margin-left: 20px;
+text-align: center;
+box-shadow: 0 0 106px -59px #adabad;
+
+}
+.card1 > h1{
+margin-top: 50px;
+font-weight: 400;
+
+}
+.latest{
+margin-left: 80px;
+text-transform: capitalize;
+
+}
+.job-category{
+margin-top: 70px;
+
+}
+.late{ 
+    padding-right: 100px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.headline{
+    width: 40%;
+    padding-right: 350px;
+}
+.headline >h1{
+    color: var(--color-pink);
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+
+.social-container{
+    width: 100%;
+}
+.social-container > img{
+    width: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+a:hover{
+    color: blue;
+}
+.img-container1::before{
+    content: "";
+    border: #f261b4 2px solid;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    z-index: -1;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo-social {
+    flex: 0 0 20%;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 60%;
+}
+ul {
+    list-style: none;
+}
+.menu-item {
+    margin-bottom: 8px;
+ }
+ .menu-link{
+    text-transform: capitalize;
+ }
+ .logo {
+    margin-bottom: 30px;
+ }
+ .footer {
+    margin-top: 100px;
+ }
