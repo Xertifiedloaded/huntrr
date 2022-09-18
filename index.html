@@ -7,27 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>xertified</title>
     <link href="assets/css/header.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4336f4871b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="my-header">
-            <h1 class="header-content">
-                xertified
-            </h1>
-            <!-- <img src="images/mask.png"> -->
-            <nav class="nav-bar">
-                <ul class="nav-menu">
-                    <li class="nav-item">post job</li>
-                    <li class="nav-item">get job</li>
-                </ul>
+            <div class="header-content">
+                <h1>xertified</h1>
+            </div>
+            <div class="nav-container">
+                <nav class="nav-bar desktop">
+                    <ul class="nav-menu">
+                        <li class="nav-item">post job</li>
+                        <li class="nav-item">get job</li>
+                    </ul>
 
-                <div class="btn">
-                    <button type="button" class="log-in">login</button>
-                    <button type="button" class="sign-up">signup</button>
-                </div>
-            </nav>
+                    <div class="btn">
+                        <button type="button" class="log-in">login</button>
+                        <button type="button" class="sign-up">signup</button>
+                    </div>
+
+                </nav>
+                <nav class="nav-bar mobile">
+                    <span class="hamburger"> <i class="fa-solid fa-bars"></i></span>
+                </nav>
+
+            </div>
         </div>
+
+        <div class="nav-menu mobile hide">
+            <ul class="list-container ">
+                <span class="closebtn"><i class="fa-solid fa-xmark"></i></span>
+                <li class="list">login</li>
+                <li class="list">signup</li>
+                <li class="list"><button class="btn1 white">login</button> </li>
+                <li class="list"><button class="btn1">signup</button></li>
+            </ul>
+        </div>
+
         <div class="image-section">
             <div class="mask1">
                 <img src="assets/images/mask.png">
@@ -51,12 +69,12 @@
 
     </section>
     <div class="height">
-        <!-- <section class="card-section"> -->
-        <div class="">
+
+        <div class="container advert">
             <div class="latest">
                 <h1 class="late">latest job</h1>
             </div>
-            <!-- first card -->
+
             <div class="cards">
                 <div class="card">
                     <h1>Frontend Developer - VUE - Digital Media</h1>
@@ -67,8 +85,8 @@
                         <img src="assets/images/gfinity.jpeg" class="poly">
                         <p>Gfinity</p>
                     </div>
-                    <!-- <button type="button">apply now</button> -->
                 </div>
+
                 <div class="card">
                     <h1>Senior Full Stack Engineer</h1>
                     <p>remote</p>
@@ -88,81 +106,93 @@
                     </div>
 
                 </div>
+                <div class="card">
+                    <h1>Frontend Developer </h1>
+                    <p>Brighton UK</p>
+                    <small>3 weeks ago</small>
+                    <div class="div">
+                        <img src="assets/images/story.png" alt="" class="poly">
+                        <p>StoryStream</p>
+                    </div>
+                </div>
 
+                <div class="card">
+                    <h1>Senior Frontend Developer (WebGL)</h1>
+                    <p>remote</p>
+                    <small>3 weeks ago</small>
+                    <div class="div">
+                        <img src="assets/images/gfinity.jpeg" class="poly">
+                        <p>Gfinity</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h1>Senior Frontend Developer</h1>
+                    <p>Leuven, Belgium,Remote Allowed</p>
+                    <small>3 weeks ago</small>
+                    <div class="div">
+                        <img src="assets/images/gfinity.jpeg" class="poly">
+                        <p>Gfinity</p>
+                    </div>
+                </div>
 
+                <div class="card">
+                    <h1>Senior Full Stack Engineer</h1>
+                    <p>remote</p>
+                    <small>3 weeks ago</small>
+                    <div class="div">
+                        <img src="assets/images/cx.jpeg" class="poly">
+                        <p>colabra</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h1>Frontend Developer (Vue.js), 100% Remote</h1>
+                    <p>Leuven, Belgium, Remote Allowed</p>
+                    <small>3 weeks ago</small>
+                    <div class="div">
+                        <img src="assets/images/polyglot.jpeg" class="poly">
+                        <p>polyglot talent</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <h1>Frontend Developer </h1>
+                    <p>Brighton UK</p>
+                    <small>3 weeks ago</small>
+                    <div class="div">
+                        <img src="assets/images/story.png" alt="" class="poly">
+                        <p>StoryStream</p>
+                    </div>
+                </div>
             </div>
-        <!--second   -->
-        <div class="cards">
-            <div class="card">
-                <h1>Frontend Developer </h1>
-                <p>Brighton UK</p>
-                <small>3 weeks ago</small>
-                <div class="div">
-                    <img src="assets/images/story.png" alt="" class="poly">
-                    <p>StoryStream</p>
+
+        </div>
+        </section>
+        <div class="job-category">
+            <div class="latest">
+                <h1 class="job">job category</h1>
+            </div>
+            <div class="cards info">
+                <div class="card1">
+                    <h1>Design</h1>
+                    <p> 150 Job Vacancy</p>
+                </div>
+                <div class="card1 ">
+                    <h1>Development</h1>
+                    <p> 200 Job Vacancy</p>
+                </div>
+                <div class="card1">
+                    <h1>Project Management</h1>
+                    <p> 200 Job Vacancy</p>
                 </div>
 
             </div>
-            <div class="card">
-                <h1>Senior Frontend Developer (WebGL)</h1>
-                <p>remote</p>
-                <small>3 weeks ago</small>
-
-            </div>
-            <div class="card">
-                <h1>Senior Frontend Developer</h1>
-                <p>Leuven, Belgium,Remote Allowed</p>
-                <small>3 weeks ago</small>
-            </div>
         </div>
-        <!--third  -->
-        <div class="cards">
-            <div class="card">
-                <h1>Frontend Developer - VUE - Digital Media</h1>
-                <p>remote</p>
-                <small>3 weeks ago</small>
-            </div>
-            <div class="card">
-                <h1>Senior Full Stack Engineer</h1>
-                <p>remote</p>
-                <small>3 weeks ago</small>
-
-            </div>
-            <div class="card">
-                <h1>Frontend Developer (Vue.js), 100% Remote</h1>
-                <p>Leuven, Belgium, Remote Allowed</p>
-                <small>3 weeks ago</small>
-            </div>
-        </div>
-
-
-    </div>
-    </section>
-    <div class="job-category">
-        <div class="latest">
-            <h1>job category</h1>
-        </div>
-        <div class="cards">
-            <div class="card1">
-                <h1>Design</h1>
-                <p> 150 Job Vacancy</p>
-            </div>
-            <div class="card1">
-                <h1>Development</h1>
-                <p> 200 Job Vacancy</p>
-            </div>
-            <div class="card1">
-                <h1>Project Management</h1>
-                <p> 200 Job Vacancy</p>
-            </div>
-
-        </div>
-    </div>
     </div>
 
 
     <section>
-        <div class="all">
+        <!-- <div class="container "> -->
+        <div class="all containerbox">
             <div class="img-container1">
                 <img src="assets/images/brooke-6.png" class="broke">
             </div>
@@ -173,6 +203,7 @@
                     their ability to solve problems, learning speed, and strength of character.</p>
             </div>
         </div>
+        <!-- </div> -->
     </section>
     </div>
     <footer class="footer">
@@ -210,7 +241,7 @@
             </div>
         </div>
     </footer>
-
+<script src="script.js"></script>
 </body>
 
 </html>
