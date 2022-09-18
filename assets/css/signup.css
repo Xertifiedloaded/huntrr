@@ -27,7 +27,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1.9;
-    background-blend-mode: color-burn;
+    height: 100vh;
 }
 .row-1::after{
 content: "gdggdgdgddgdgddg";
