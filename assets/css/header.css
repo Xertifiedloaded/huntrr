@@ -82,7 +82,7 @@ body {
 }
 
 .image-section {
-    display: flex;
+    /* display: flex; */
     width: 100%;
     /* background-color: chartreuse; */
 }
@@ -90,8 +90,9 @@ body {
 .mask-2 {
     width: 40%;
     position: absolute;
-    top: 0;
+    bottom: 10px;
     left: 60%;
+    top: 0;
 
 }
 
@@ -426,7 +427,7 @@ ul {
 
     .mask-2 {
         width: 70%;
-        top: 10px;
+        top: 0;
         left: 30%;
         position: absolute;
     }
@@ -626,6 +627,7 @@ ul {
     .mobile {
         width: 100%;
         display: block;
+        margin: 0;
 
     }
 
@@ -633,9 +635,14 @@ ul {
         font-size: 30px;
         display: flex;
         justify-content: end;
-
+        align-items: center;
+        margin-right: 15px;
+        color: white;
     }
-
+.image-section{
+    margin: 0;
+    padding: 0;
+}
     .hide {
         width: 100%;
         margin: 0 auto;
