@@ -638,7 +638,7 @@ ul {
     }
 
     .mobile>.hamburger {
-        font-size: 30px;
+        font-size: 40px;
         display: flex;
         justify-content: end;
         align-items: center;
@@ -656,11 +656,8 @@ ul {
         margin: 0 auto;
         top: 0;
         display: none;
-        /* border: 2px solid pink; */
         height: 100vh;
-        /* position: fixed; */
         background-color: rgb(222, 211, 211);
-        /* z-index: 1; */
         left: 0;
         right: 0;
 
@@ -677,7 +674,7 @@ ul {
     }
 
     .list-container {
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
         font-size: 20px;
